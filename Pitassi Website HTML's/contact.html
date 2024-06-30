@@ -5,6 +5,13 @@
         <title>
             Contact
         </title>
+        <style>
+            table, th, td {
+              border: 2px solid white;
+              text-align: center;
+              color: white;
+            }
+            </style>
     </head>
 
     <body>
@@ -22,10 +29,79 @@
                 <a href="about.html" class="nav-item">About Us</a><br>
                 <a href="contact.html" class="nav-item">Contact</a>
             </nav>
-            <div class="artheader">
+            <div class="artheader" id="contactUs">
                 <h1>Contact</h1>
             </div>
+
+            <div class="contactCard" id="contactCard">
+            <h2>
+                <p>
+                  <adress>
+                    Email: <a 
+             href="mailto:minteclairart@gmail.com">minteclairart@gmail.com</a><br>
+                    Phone: <a href="tel:+14064659859>">+1 (406) 465-9859</a>
+                    </adress>
+                    </p>
+            </h2>
+            
+            </div>
+
+            <div class="hoursTable">
+            <h1>Hours</h1>
+            <table>
+             <tr>
+               <th scope="col">Day</th>
+               <th scope="col">Hours</th>
+             </tr>
+             <tr>
+               <td>Monday-Wednesday</td>
+               <td>10:00 AM - 10:00 PM</td>
+              </tr>
+              <tr>
+                <td>Thursday-Saturday</td>
+                <td>10:00 AM - 11:00 PM</td>
+              </tr>
+              <tr>
+                <td>Sunday</td>
+                <td>11:00 AM - 5:00 PM</td>
+              </tr>
+           </table><br><br>
+
+           <hr>
+           Leave a Review!
+           <input type="radio" id="5stars" name="rating" value="5 Stars">
+           <label for="5">5</label>
+           <input type="radio" id="4" name="rating" value="4 Stars">
+           <label for="4">4</label>
+           <input type="radio" id="3" name="rating" value="3 Stars">
+           <label for="3">3</label>
+           <input type="radio" id="2" name="rating" value="2 Stars">
+           <label for="2">2</label>
+           <input type="radio" id="1" name="rating" value="1 Stars">
+           <label for="1">1</label>
+            
+           Email Address:
+           <input type="text" name="email address" id="email" /><br>
+           <input type="checkbox" name="stay-up-tp-date" value="newsletter" />Receive Our Newsletter</br>
+           <h2>Comments</h2>
+           <textarea name="comments" id="comments" cols="60" rows="6" placeholder="Enter up to 500 characters"></textarea></br>
+           <input type="submit" name="submit" value="Submit" />
+           </p>
+           </div>
+
         </main>
+
+        <footer>
+            <div class="footer">
+            <p style="text-align:left;">
+            © 2024 Pitassi 
+            <span style="float:right;">
+                (406)-465-9859<br>
+                minteclairart@gmail.com
+            </span>
+        </p>
+        </div>
+        </footer>
     </body>
 
 </html>
