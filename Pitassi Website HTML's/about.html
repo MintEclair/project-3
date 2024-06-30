@@ -22,7 +22,64 @@
                 <a href="about.html" class="nav-item">About Us</a><br>
                 <a href="contact.html" class="nav-item">Contact</a>
             </nav>
+
+            <div class="artheader" id="About Us">
+                <h1>About Us</h1>
+            </div>
+            <hr>
+            
+            <div class="frame" id="meetTheArtist">
+            <div class="row">
+                <div class="column">
+                <img src="../Assets/realLifePhoto.jpeg" alt="Real Life Photo of Me" width="300" height="200">
+                </div>
+                <div class="column">
+                <img src="../Assets/profilePicture.jpeg" alt="Cartoon Photo of Me" width="300" height="200">
+                </div>
+            </div>
+            </div>
+
+            <div class="aboutUsParagraph" id="AboutUsStory">
+                My name is Mint Pitassy. I'm 21 years old, and I split my time in between Missoula and Helena, Montana.<br>
+                I'm currently working on a Game Design BFA at the University of Montana, and I already have three years of education<br>
+                under my belt. <br>
+                I would love to create my own comic one day, and open up my own business selling my art and potentially creating clothing designs.<br>
+                I have a passion for game creating, too, and I'd also love to work in the video game space and work on my own video games one day.<br>
+                Feel free to contact me regarding commissions or collaborations!
+            </div>
+            <hr>
+            <nav class="mainpageheader">
+                <a href="index.html" class="nav-item">ART</a><br>
+                <a href="about.html" class="nav-item">About Us</a><br>
+                <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
         </main>
+
+        <footer>
+            <div class="footer">
+            <p style="text-align:left;">
+            © 2024 Pitassi 
+            <span style="float:right;">
+                (406)-465-9859<br>
+                minteclairart@gmail.com
+            </span>
+        </p>
+        </div>
+        </footer>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+        </script>
     </body>
 
 </html>

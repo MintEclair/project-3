@@ -32,6 +32,7 @@
             <div class="artheader" id="contactUs">
                 <h1>Contact</h1>
             </div>
+            <hr>
 
             <div class="contactCard" id="contactCard">
             <h2>
@@ -87,7 +88,13 @@
            <textarea name="comments" id="comments" cols="60" rows="6" placeholder="Enter up to 500 characters"></textarea></br>
            <input type="submit" name="submit" value="Submit" />
            </p>
-           </div>
+           </div><br>
+           <hr>
+           <nav class="mainpageheader">
+            <a href="index.html" class="nav-item">ART</a><br>
+            <a href="about.html" class="nav-item">About Us</a><br>
+            <a href="contact.html" class="nav-item">Contact</a>
+            </nav>
 
         </main>
 
@@ -102,6 +109,19 @@
         </p>
         </div>
         </footer>
+        <script>
+            window.onscroll = function() {myFunction()};
+            
+            var header = document.getElementById("myHeader");
+            var sticky = header.offsetTop;
+            
+            function myFunction() {
+              if (window.pageYOffset > sticky) {
+                header.classList.add("sticky");
+              } else {
+                header.classList.remove("sticky");
+              }
+            }
+        </script>
     </body>
-
 </html>

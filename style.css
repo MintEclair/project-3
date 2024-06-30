@@ -118,3 +118,31 @@ text-align: right;
   margin-bottom: 10px;
   color: white;
 }
+
+.frame {
+  background-color: black;
+  width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 2px solid white;
+  border-radius: 8px
+   
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.aboutUsParagraph {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid white;
+    background-color: black;
+    text-align: center;
+    margin: 30px;
+}
