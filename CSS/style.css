@@ -1,0 +1,104 @@
+@font-face {
+    font-family: cinzel;
+    src: url(../Assets/CinzelDecorative-Regular.ttf)
+}
+
+body {
+    background-color: #0a0012;
+}
+
+.header {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    font-family: cinzel;
+    letter-spacing: 20px;
+    background-color: #0a0012;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.content {
+    padding: 16px;
+  }
+
+.sticky + .content {
+    padding-top: 102px;
+  }
+
+.mainpageheader {
+    text-align: center;
+    font-family: cinzel;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    justify-content: center;
+    
+}
+
+a:link {
+    color: #ff7de7;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: #7900c9;
+    text-decoration:none;
+  }
+  
+  a:hover {
+    color: #ff0088;
+    text-decoration-line: underline;
+  }
+
+  .artheader {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-family: cinzel;
+  }
+
+.reflection-container {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 20px; 
+}
+
+.reflection-container img {
+    margin-right: 10px; 
+}
+
+.reflection-container h3, p {
+    margin: 0;
+    color: white;
+}
+
+.reflection-text {
+  text-align: left;
+}
+
+.character-container {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+    gap: 20px;
+}
+
+.character-container h3, p {
+  margin: 0;
+  color: white;
+}
+
+.character-text {
+text-align: right;
+}
+
+.footer {
+  color: white;
+  font-size: 20px;
+}
